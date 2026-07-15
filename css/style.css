@@ -1,5 +1,5 @@
 *{
-    font-family: "Inter", sans-serif;
+     font-family: "Roboto Condensed", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,17 +13,23 @@ body{
 header{
 
  width: 100%;
+ height: auto;
  display: flex;
- padding: 30px 30px 10px 100px;
+ padding: 50px 30px 10px 100px;
+ 
    
+}
+
+.section1{
+    height: 100vh;
 }
 
 
 .p-header{
     
     display: flex;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border: 1px solid white;
     justify-content: center;
     align-items: center;
@@ -47,12 +53,11 @@ header{
     font-weight: bold;
     font-size: 12px;
    
-}
-
-
-
-
-
+} 
+.nav1:hover{
+    color: white;
+    transition: 0.5s;
+}  
 
 section{
     display: flex;
@@ -68,36 +73,40 @@ section{
 }
 
 .p-frontEnd{
-    font-size: 12px;
+    font-family: "Geist Pixel", sans-serif;
+    font-size: 14px;
     padding: 0 100px;
     color: #575757;
    
 }
 .nome-wesley{
-    font-size: 50px;
-    padding: 0 100px;
-    padding: 15px 100px;
-    line-height:50px;
-    font-weight: bold;
+    font-size: 100px;
+    padding: 25px 100px;
+    line-height:80px;
+    font-weight: 400;
 }
 
 .p-texto-esquerdo{
-    font-size: 12px;
+    font-family: "Geist Pixel", sans-serif;
+    font-size: 20px;
     padding: 0 100px;
     padding: 10px 100px;
-    line-height:12px;
+    color: #575757;
+    
+   
    
 }
 
 .btn-contato, .btn-curriculo{
   color: black;
-  font-size: 10px;
+  width: 250px;
+  font-size: 14px;
   border-radius: 15px;
   border: 1px solid #ffffff;
-  padding: 5px;
+  padding: 10px;
   cursor: pointer;
   font-weight: 700;
-  margin-top: 15px;
+  margin: 50px 10px;
 }
 
 .btn-contato{
@@ -108,6 +117,7 @@ section{
 .btn-contato:hover{
     background: #000000;
     color: #ffffff;
+     transition: 0.5s;
 }
 
 .btn-curriculo{
@@ -117,14 +127,78 @@ section{
 .btn-curriculo:hover{
     background: #ffffff;
     color: #000000;
+     transition: 0.5s;
 }
 
-git
+
 .foto-principal{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     margin: 50px;
-    border-radius: 10px;
-    opacity: 0.5;
+    border-radius: 15px;
+    
 }
+
+.section-sobre-mim{
+    height: 100vh;
+}
+
+.foto-sobre-mim{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 15px;
+    
+}
+
+.p-sobre-mim{
+    font-family: "Geist Pixel", sans-serif;
+    font-size: 14px;
+    padding: 0 100px;
+    color: #575757;
+   
+}
+
+.h1-sobre-mim{
+    font-size: 50px;
+    padding: 15px 100px;
+    line-height:50px;
+    font-weight: 500;
+}
+
+.p-texto-sobre-mim{
+    font-family: "Geist Pixel", sans-serif;
+    font-size: 20px;
+    padding: 10px 100px;
+    color: #575757;
+
+}
+
+.ul-sobre-mim{
+    padding: 15px 100px;
+    display: flex;
+   
+}
+
+.li-sobre-mim{
+    
+    margin: 2px;
+    list-style: none;
+    width: 180px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: initial;
+    border-left: 1px solid #ffffff;
+    font-weight: 500;
+   
+}
+
+#id-li{
+     font-family: "Geist Pixel", sans-serif;
+    font-size: 10px;
+    padding: 0 100px;
+    color: #575757;
+}
+
+
 
