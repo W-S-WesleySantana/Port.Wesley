@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 1021px) {
     header{
 
  width: 100%;
@@ -37,10 +37,6 @@
     font-size: 12px;
    
 }
-
-
-
-
 
 
 section{
@@ -86,6 +82,7 @@ section{
   cursor: pointer;
   font-weight: 700;
   margin-top: 15px;
+  width: 100px;
 }
 
 .btn-contato{
