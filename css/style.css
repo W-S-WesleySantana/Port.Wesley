@@ -1,38 +1,38 @@
-*{
-     font-family: "Roboto Condensed", sans-serif;
+* {
+    font-family: "Roboto Condensed", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
 }
 
-body{
-    background: linear-gradient(45deg,rgba(0, 0, 0, 1) 40%, rgb(51, 54, 53) 49%, rgba(0, 0, 0, 1) 62%);
+body {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 40%, rgb(51, 54, 53) 49%, rgba(0, 0, 0, 1) 62%);
 }
 
-main{
-    margin-left: 100px;
+main {
+    padding: 0 100px;
 }
 
-header{
+header {
 
- width: 100%;
- height: auto;
- display: flex;
- padding: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 50px;
 
- 
+
 }
 
-section{
+section {
     display: flex;
     height: 100vh;
 
 }
 
 
-.p-header{
-    
+.p-header {
+
     display: flex;
     width: 50px;
     height: 50px;
@@ -45,130 +45,134 @@ section{
     font-size: 30px;
 }
 
-.header-links{
+.header-links {
     display: flex;
     position: absolute;
-    right: 15%; 
+    right: 15%;
     padding: 15px 0;
 
 }
 
-.nav1{
+.nav1 {
     margin: 0 10px;
     text-decoration: none;
     color: #575757;
     font-weight: bold;
     font-size: 20px;
-   
-} 
-.nav1:hover{
-    color: white;
-    transition: 0.5s;
-}  
 
-
-
-.caixa-esquerda{
-  
-    margin-top: 30px;
-    width: 50%;
-    
-    
 }
 
-.p-frontEnd{
+.nav1:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+.caixa-esquerda {
+
+    margin-top: 30px;
+    width: 50%;
+
+
+}
+
+.p-frontEnd {
     font-family: "Geist Pixel", sans-serif;
     font-size: 20px;
     padding: 0 100px;
     color: #575757;
-   
+
 }
-.nome-wesley{
+
+.nome-wesley {
     font-size: 100px;
     padding: 25px 100px;
-    line-height:80px;
+    line-height: 80px;
     font-weight: 400;
 }
 
-.p-texto-esquerdo{
+.p-texto-esquerdo {
     font-family: "Geist Pixel", sans-serif;
     font-size: 20px;
     padding: 0 100px;
     padding: 10px 100px;
     color: #575757;
-    
-   
-   
+
+
+
 }
 
-.btn-contato, .btn-curriculo{
-  color: black;
-  width: 250px;
-  font-size: 14px;
-  border-radius: 15px;
-  border: 1px solid #ffffff;
-  padding: 10px;
-  cursor: pointer;
-  font-weight: 700;
-  margin: 50px 10px;
+.btn-contato,
+.btn-curriculo {
+    color: black;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 50px 10px;
 }
 
-.btn-contato{
+.btn-contato {
     margin-left: 100px;
-    
+
 }
 
-.btn-contato:hover{
+.btn-contato:hover {
     background: #000000;
     color: #ffffff;
-     transition: 0.5s;
+    transition: 0.5s;
 }
 
-.btn-curriculo{
+.btn-curriculo {
     background: #000000;
     color: #ffffff;
 }
-.btn-curriculo:hover{
+
+.btn-curriculo:hover {
     background: #ffffff;
     color: #000000;
-     transition: 0.5s;
+    transition: 0.5s;
 }
 
 
-.foto-principal{
+.foto-principal {
     width: 500px;
     height: 400px;
     margin: 50px;
     border-radius: 15px;
-    
+
 }
 
 
 
-.foto-sobre-mim{
+.foto-sobre-mim {
     width: 400px;
     height: 400px;
     margin: 50px;
     border-radius: 15px;
-    
+
 }
 
-.p-sobre-mim{
+.p-sobre-mim {
     font-family: "Geist Pixel", sans-serif;
     font-size: 20px;
     padding: 0 100px;
     color: #575757;
-   
+
 }
 
-.h2-sobre-mim{
+.h2-sobre-mim {
     font-size: 50px;
     padding: 15px 100px;
-    line-height:50px;
+    line-height: 50px;
     font-weight: 500;
 }
 
-.p-texto-sobre-mim{
+.p-texto-sobre-mim {
     font-family: "Geist Pixel", sans-serif;
     width: 850px;
     font-size: 20px;
@@ -177,14 +181,14 @@ section{
 
 }
 
-.ul-sobre-mim{
+.ul-sobre-mim {
     padding: 15px 100px;
     display: flex;
-   
+
 }
 
-.li-sobre-mim{
-    
+.li-sobre-mim {
+
     margin: 2px;
     list-style: none;
     width: 180px;
@@ -193,43 +197,45 @@ section{
     text-align: initial;
     border-left: 1px solid #ffffff;
     font-weight: 500;
-   
+
 }
 
-#id-li{
+#id-li {
     font-family: "Geist Pixel", sans-serif;
     font-size: 12px;
     font-weight: bold;
     color: #575757;
 }
 
-.section-stack{
+.section-stack {
     display: block;
+    padding: 0 50px;
 }
 
-.p-stack{
-  
+.p-stack {
+
     font-family: "Geist Pixel", sans-serif;
     font-size: 20px;
     padding: 0 100px;
     color: #575757;
 }
 
-.h2-stack{
+.h2-stack {
     font-size: 50px;
-    padding: 15px 100px;
+    padding: 10px;
+
 }
 
-.meus-stacks{
+.meus-stacks {
     display: grid;
-    width: 70%;
-    grid-template-columns: repeat(4,1fr);
+    width: 75vw;
+    grid-template-columns: repeat(4, 1fr);
     gap: 0;
-    padding: 15px 100px;
-  
+
+
 }
 
-.stack{
+.stack {
     margin: 10px;
     border: 1px solid #ffffff;
     width: 300px;
@@ -240,106 +246,117 @@ section{
     color: #4d4d4d;
     font-weight: 700;
     background: #131313;
-    
+
 }
 
-#icon1{
+#icon1 {
 
-  font-family: "Geist Pixel", sans-serif;
-  padding: 10px;
-  background: rgb(81, 127, 164, 0.5);
-  border-radius: 10px;
-  
-}
-#icon2{
-    
-  font-family: "Geist Pixel", sans-serif;
-  padding: 10px;
-  background: rgba(50, 216, 86, 0.5);
-  border-radius: 10px;
-  
-}
-#icon3{
+    font-family: "Geist Pixel", sans-serif;
+    padding: 10px;
+    background: rgb(81, 127, 164, 0.5);
+    border-radius: 10px;
 
-  font-family: "Geist Pixel", sans-serif;
-  padding: 10px;
-  background: rgba(250, 250, 27, 0.5);
-  border-radius: 10px;
-  
-}
-#icon4{
-
-  font-family: "Geist Pixel", sans-serif;
-  padding: 10px;
-  background: rgba(194, 108, 28, 0.5);
-  border-radius: 10px;
-  
-}
-#icon5{
-
-  font-family: "Geist Pixel", sans-serif;
-  padding: 10px;
-  background: rgba(194, 175, 28, 0.5);
-  border-radius: 10px;
-  
-}
-#icon6{
-
-  font-family: "Geist Pixel", sans-serif;
-  padding: 10px;
-  background: rgba(221, 221, 221, 0.5);
-  border-radius: 10px;
-  
-}
-#icon7{
-
-  font-family: "Geist Pixel", sans-serif;
-  padding: 10px;
-  background: rgba(255, 251, 251, 0.5);
-  border-radius: 10px;
-  
 }
 
-#stack1:hover{
-    border-bottom: 2px solid rgb(4, 142, 255) ;
+#icon2 {
+
+    font-family: "Geist Pixel", sans-serif;
+    padding: 10px;
+    background: rgba(50, 216, 86, 0.5);
+    border-radius: 10px;
+
 }
-#stack2:hover{
-    border-bottom: 2px solid rgb(17, 255, 4) ;
+
+#icon3 {
+
+    font-family: "Geist Pixel", sans-serif;
+    padding: 10px;
+    background: rgba(250, 250, 27, 0.5);
+    border-radius: 10px;
+
 }
-#stack3:hover{
-    border-bottom: 2px solid rgb(255, 238, 0) ;
+
+#icon4 {
+
+    font-family: "Geist Pixel", sans-serif;
+    padding: 10px;
+    background: rgba(194, 108, 28, 0.5);
+    border-radius: 10px;
+
 }
-#stack4:hover{
-    border-bottom: 2px solid rgb(252, 143, 0) ;
+
+#icon5 {
+
+    font-family: "Geist Pixel", sans-serif;
+    padding: 10px;
+    background: rgba(194, 175, 28, 0.5);
+    border-radius: 10px;
+
 }
-#stack5:hover{
-    border-bottom: 2px solid rgb(204, 150, 34) ;
+
+#icon6 {
+
+    font-family: "Geist Pixel", sans-serif;
+    padding: 10px;
+    background: rgba(221, 221, 221, 0.5);
+    border-radius: 10px;
+
 }
-#stack6:hover{
-    border-bottom: 2px solid rgb(62, 62, 62) ;
+
+#icon7 {
+
+    font-family: "Geist Pixel", sans-serif;
+    padding: 10px;
+    background: rgba(255, 251, 251, 0.5);
+    border-radius: 10px;
+
+}
+
+#stack1:hover {
+    border-bottom: 2px solid rgb(4, 142, 255);
+}
+
+#stack2:hover {
+    border-bottom: 2px solid rgb(17, 255, 4);
+}
+
+#stack3:hover {
+    border-bottom: 2px solid rgb(255, 238, 0);
+}
+
+#stack4:hover {
+    border-bottom: 2px solid rgb(252, 143, 0);
+}
+
+#stack5:hover {
+    border-bottom: 2px solid rgb(204, 150, 34);
+}
+
+#stack6:hover {
+    border-bottom: 2px solid rgb(62, 62, 62);
 }
 
 
 
-.section-portifolio{
+.section-portifolio {
     display: block;
-  
+    padding: 0 50px;
 }
 
 
-.p-portifolio{
-  
+.p-portifolio {
+
     font-family: "Geist Pixel", sans-serif;
     font-size: 20px;
     padding: 0 100px;
     color: #575757;
-  
+
 }
 
-.h2-portifolio{
+.h2-portifolio {
     font-size: 50px;
-    padding: 20px 100px;
-    line-height:50px;
+    padding: 10px;
+    line-height: 50px;
     font-weight: 500;
 
 }
@@ -359,50 +376,48 @@ section{
     width: 50%;
     height: auto;
 }
-
-
-.ul-projetos{
+.ul-projetos {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 
-.projeto{
+.projeto {
     margin-top: 10px;
     width: 300px;
-    height: 500px;
+    height: auto;
     list-style: none;
     border: 1.5px solid #ffffff;
     border-radius: 10px;
-   
-   
+
+
 
 }
 
-.img-projeto{
+.img-projeto {
     width: 100%;
     height: 200px;
     border-radius: 10px;
 }
 
-.p-projeto{
+.p-projeto {
     font-family: "Geist Pixel", sans-serif;
     font-size: 15px;
     color: #575757;
     padding: 0px 15px;
 
 }
-.h2-projeto{
-    font-size: 20px;
-    line-height:50px;
+
+.h2-projeto {
+    font-size: 50px;
+    line-height: 50px;
     font-weight: 500;
     padding: 0px 15px;
 
 }
 
-.p-texto-projeto{
+.p-texto-projeto {
     width: 100%;
-   
     font-family: "Geist Pixel", sans-serif;
     font-size: 12px;
     color: #575757;
@@ -411,45 +426,104 @@ section{
 
 }
 
-.a-projeto{
+.a-projeto {
     text-decoration: none;
     padding: 5px 15px;
     border: 1px solid white;
     border-radius: 15px;
 }
 
-#a-projeto1{
-    margin-left:15px ;
+#a-projeto1 {
+    margin-left: 15px;
 }
 
-.bnt-projeto,.bnt-projeto2{
+.bnt-projeto,
+.bnt-projeto2 {
     color: #000000;
     padding: 5px 15px;
     border-radius: 15px;
-    margin-top: 15px;
+    margin: 15px 0;
     width: 100px;
     cursor: pointer;
- 
+
 }
 
-.bnt-projeto{
+.bnt-projeto {
     margin-left: 15px;
 }
 
 
-.bnt-projeto2:hover{
-background: #000000;
-color: #ffffff;
+.bnt-projeto2:hover {
+    background: #000000;
+    color: #ffffff;
 }
+
+.section-cursos-certificados {
+    display: block;
+    padding: 0 50px;
+    width: 30vw;
+   
+
+}
+
+
+
+.p-certificado {
+    font-family: "Geist Pixel", sans-serif;
+    font-size: 20px;
+    color: #575757;
+    padding: 0px 15px;
+
+}
+
+
+.h2-certificado {
+    font-size: 50px;
+    padding: 10px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+
+.caixa-certificados {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-items: center;
+    align-items: center;
   
 
 
+}
 
+.certificados {
+    margin: 15px 5px;
+    list-style: none;
 
+}
 
+.img-certificado {
 
+    padding: 2px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    width: 40vw;
+    height: 45vh;
+    margin-bottom: 15px;
+}
 
+.a-certificado {
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 20px;
+ 
+    
+}
 
-
-
-
+.a-certificado:hover{
+    color: #000000;
+    background: #ffffff;
+}
