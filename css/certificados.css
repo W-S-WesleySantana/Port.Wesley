@@ -1,0 +1,65 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+body {
+    background:
+        linear-gradient(45deg, rgba(0, 0, 0, 1) 40%, rgb(51, 54, 53) 49%, rgba(0, 0, 0, 1) 62%);
+        margin: 0 50px;
+       
+
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+a{
+    text-decoration: none;
+    margin: 20px 0;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+a:hover{
+    background: #ffffff;
+    color: #000000;
+    transition: 0.5s;
+}
+
+
+
+
+.caixa-certificados {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+
+
+
+}
+
+.certificados {
+    margin: 15px 5px;
+    list-style: none;
+
+}
+
+.img-certificado {
+
+    padding: 2px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    width: 40vw;
+    height: 45vh;
+
+}
