@@ -52,8 +52,9 @@ const projetos = [
         <a class="a-projeto" id="a-projeto1" href="#">VS code</a>
         <a class="a-projeto" href="#">Figma</a>
         <a class="a-projeto" href="#">SEO</a>
-        <br>
+        <br> <br> 
   
+
         <a href="https://github.com/W-S-WesleySantana" target="_blank" rel="noopener noreferrer" class="bnt-projeto">GitHub</a>
 
         <a href="https://w-s-wesleysantana.github.io/Eletronicos-GW/" target="_blank" rel="noopener noreferrer" class="bnt-projeto2">Ver Online</a>

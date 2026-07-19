@@ -63,3 +63,10 @@ a:hover{
     height: 45vh;
 
 }
+
+@media(max-width:1200px){
+
+    main{
+        margin: 0 0;
+    }
+}
