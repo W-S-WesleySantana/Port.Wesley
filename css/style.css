@@ -8,33 +8,26 @@
 
 body {
     background: linear-gradient(45deg, rgba(0, 0, 0, 1) 40%, rgb(51, 54, 53) 49%, rgba(0, 0, 0, 1) 62%);
-   
+    min-height: 100vh;
 }
-main {
 
+main {
     margin: 0 50px;
- 
 }
+
+/* Header */
 
 header {
-
     width: 100%;
-    height:auto ;
+    height: auto;
     display: flex;
-   
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
 }
-
-section {
-    display: flex;
-    height: 100vh;
-
-}
-
 
 .p-header {
-
     display: flex;
-    margin: 50px 0 0 20px  ;
     width: 40px;
     height: 40px;
     border: 1px solid white;
@@ -47,44 +40,56 @@ section {
 
 .header-links {
     display: flex;
-    position: absolute;
-    right: 15%;
-    font-size: 20px;
-    margin-top: 45px;
+    gap: 15px;
 }
 
 .nav1 {
-  
     text-decoration: none;
     color: #575757;
     font-weight: bold;
     font-size: 15px;
     padding: 10px;
-  
-
+    transition: color 0.3s ease;
 }
 
 .nav1:hover {
-    color: white;
-    transition: 0.5s;
+    color: #ffffff;
 }
+
+
+section {
+    display: flex;
+    min-height: 100vh;
+    padding: 10px 0;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 .caixa-esquerda {
     width: 50%;
+
 }
 
 .p-frontEnd {
     font-family: "Geist Pixel", sans-serif;
     font-size: 15px;
     color: #575757;
-    margin:30px 0;
-
+    margin: 30px 0;
 }
 
 .nome-wesley {
     font-size: 50px;
-    line-height: 40px;
+    line-height: 1.1;
     font-weight: 400;
+    display: inline-block;
+
 }
 
 .p-texto-esquerdo {
@@ -103,16 +108,13 @@ section {
     padding: 10px 30px;
     border-radius: 15px;
     cursor: pointer;
-   
-   
- 
-   
+    background: #ffffff;
+    transition: background 0.3s, color 0.3s;
 }
 
 .btn-contato:hover {
     background: #000000;
     color: #ffffff;
-    transition: 0.5s;
 }
 
 .btn-curriculo {
@@ -123,199 +125,159 @@ section {
 .btn-curriculo:hover {
     background: #ffffff;
     color: #000000;
-    transition: 0.5s;
 }
 
+.caixa-direita {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .foto-principal {
-    width: 80vw;
-    height: 40vh;
-    margin: 50px;
+    width: 20vw;
+    max-width: 320px;
+    height: auto;
     border-radius: 15px;
 
+    object-fit: cover;
 }
 
-/* SOBRE MIM*/
+/* SOBRE MIM */
+.section-sobre-mim {
+    min-height: 80vh;
+    align-items: center;
+}
 
-.section-sobre-mim{
-  height: 90vh;
+.esquerda-sobre-mim {
+    margin-right: 40px;
 }
 
 .foto-sobre-mim {
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 15px;
-
+    display: inline;
 }
 
 .p-sobre-mim {
     font-family: "Geist Pixel", sans-serif;
     font-size: 15px;
     color: #575757;
-    margin: 0 50px;
-
 }
 
 .h2-sobre-mim {
     font-size: 30px;
-    margin: 15px 50px;
-    line-height: 30px;
+    margin: 15px 0;
+    line-height: 1.1;
     font-weight: 500;
 }
 
 .p-texto-sobre-mim {
     font-family: "Geist Pixel", sans-serif;
-    width: 350px;
+    max-width: 450px;
     font-size: 15px;
     color: #575757;
-    margin: 15px 50px;
-  
-
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
 .ul-sobre-mim {
-    
     display: flex;
-
+    gap: 15px;
 }
 
 .li-sobre-mim {
-
-    margin: 15px 5px;
     list-style: none;
-    font-size: 10px;
-    text-align: initial;
+    font-size: 11px;
     border-left: 1px solid #ffffff;
+    padding-left: 10px;
     font-weight: 400;
-    text-align: center;
-
 }
 
-#id-li {
+.span-li {
     font-family: "Geist Pixel", sans-serif;
     font-size: 12px;
     font-weight: bold;
     color: #575757;
+    display: block;
+    margin-top: 5px;
 }
 
-
-
-
-/*Meu stack*/
-
+/* MEU STACK */
 
 .section-stack {
     display: block;
-    padding: 10px;
 
-   
-
-    
-   
-   
+    padding: 60px 0;
 }
 
 .p-stack {
-
     font-family: "Geist Pixel", sans-serif;
     font-size: 15px;
-  
-  
     color: #575757;
-   
 }
 
-.h2-stack{
-    margin: 15px 0;
+.h2-stack {
+    margin: 15px 0 30px 0;
 }
 
 .meus-stacks {
     display: grid;
-    width: 75vw;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-   
-   
-
-
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    width: 100%;
 }
 
 .stack {
-    margin: 10px 10px ;
     border: 1px solid #ffffff;
-    width: 150px;
-    font-size: 10px;
+    font-size: 11px;
     border-radius: 10px;
     list-style: none;
-    padding: 20px 0;
-    color: #4d4d4d;
+    padding: 20px 10px;
+    color: #8c8c8c;
     font-weight: 500;
     background: #131313;
     text-align: center;
-   
+    transition: border 0.3s;
+}
+
+/* Icons */
+.stack span {
+    font-family: "Geist Pixel", sans-serif;
+    padding: 6px 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 8px;
 }
 
 #icon1 {
-
-    font-family: "Geist Pixel", sans-serif;
-    padding: 10px;
-    background: rgb(81, 127, 164, 0.5);
-    border-radius: 10px;
-
+    background: rgba(81, 127, 164, 0.5);
 }
 
 #icon2 {
-
-    font-family: "Geist Pixel", sans-serif;
-    padding: 5px;
     background: rgba(50, 216, 86, 0.5);
-    border-radius: 10px;
-
 }
 
 #icon3 {
-
-    font-family: "Geist Pixel", sans-serif;
-    padding: 10px;
     background: rgba(250, 250, 27, 0.5);
-    border-radius: 10px;
-
 }
 
 #icon4 {
-
-    font-family: "Geist Pixel", sans-serif;
-    padding: 10px;
     background: rgba(194, 108, 28, 0.5);
-    border-radius: 10px;
-
 }
 
 #icon5 {
-
-    font-family: "Geist Pixel", sans-serif;
-    padding: 10px;
     background: rgba(194, 175, 28, 0.5);
-    border-radius: 10px;
-
 }
 
 #icon6 {
-
-    font-family: "Geist Pixel", sans-serif;
-    padding: 10px;
     background: rgba(221, 221, 221, 0.5);
-    border-radius: 10px;
-
 }
 
 #icon7 {
-
-    font-family: "Geist Pixel", sans-serif;
-    padding: 10px;
     background: rgba(255, 251, 251, 0.5);
-    border-radius: 10px;
-
 }
 
 #stack1:hover {
@@ -339,321 +301,247 @@ section {
 }
 
 #stack6:hover {
-    border-bottom: 2px solid rgb(62, 62, 62);
+    border-bottom: 2px solid rgb(150, 150, 150);
 }
 
-
-/*PORTIFOLIO PROJETO*/
-
-
+/* PORTFÓLIO */
 .section-portifolio {
     display: block;
-    padding: 0px 0;
-
-   
-   
+    padding: 60px 0;
 }
 
-
 .p-portifolio {
-
     font-family: "Geist Pixel", sans-serif;
     font-size: 15px;
     color: #575757;
-   
-
 }
 
 .h2-portifolio {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 1.1;
     font-weight: 500;
- 
-
-}
-
-
-
-.li-portifolio{
-   
- list-style: none;
- border: #ffffff 1px solid;
- border-radius: 10px;
- width: 30%;
- 
-}
-
-.image-li-portifolio{
-    width: 30%;
-    height: auto;
+    margin: 15px 0 30px 0;
 }
 
 .ul-projetos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    text-align: center;
 }
 
-
 .projeto {
-    margin-top: 10px;
-    width: 200px;
-    height: auto;
     list-style: none;
     border: 1.5px solid #ffffff;
     border-radius: 10px;
-
+    padding: 5px;
+   
 }
 
 .img-projeto {
     width: 100%;
     height: 150px;
-    border-radius: 10px;
-}
-
-.p-projeto {
-    font-family: "Geist Pixel", sans-serif;
-    font-size: 10px;
-    color: #575757;
-    padding: 0px 5px;
-
-}
-
-.h2-projeto {
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 500;
-    padding: 0px 5px;
-
-}
-
-.p-texto-projeto {
-    width: 100%;
-    font-family: "Geist Pixel", sans-serif;
-    font-size: 10px;
-    color: #575757;
-    padding: 0px 5px;
-    margin-bottom: 10px;
-
-}
-
-.a-projeto {
-    text-decoration: none;
-    padding: 0px 5px;
-    border: 1px solid #ffffff;
-    border-radius: 15px;
+    object-fit: cover;
+    border-radius: 8px;
   
-    
+}
+.h2-projeto{
+    font-size: 14px;
+    text-align: left;
 }
 
-#a-projeto1 {
-    margin-left:5px;
-    
+.p-projeto,.p-texto-projeto {
+    font-weight: 400;
+    color: #575757;
+    padding: 5px 0;
+    text-align: left;
 }
 
-.bnt-projeto,
-.bnt-projeto2 {
+.a-projeto{
+   
     border: 1px solid #ffffff;
-  padding: 0 5px  ;
-    border-radius: 10px;
     text-decoration: none;
-    cursor: pointer;
-
+    border-radius: 5px;
+    font-size: 12px;
+   
+    
 }
 
-.bnt-projeto {
-    margin-left: 15px;
+.ul-projetos a{
+    padding: 5px;
+    display: inline-block;
+  ;  
 }
 
-
-.bnt-projeto2:hover, .bnt-projeto:hover {
+.ul-projetos a:hover{
     background: #ffffff;
     color: #000000;
+    transition: 0.5s;
 }
-
-
-/*CURSOS CERTIFICADOS*/
-
-.section-cursos-certificados {
-    display: block;
-    
+.bnt-projeto,.bnt-projeto2{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
    
 }
 
 
+/* CURSOS E CERTIFICADOS */
+.section-cursos-certificados {
+    display: block;
+    padding: 60px 0;
+    position: relative;
+}
 
 .p-certificado {
     font-family: "Geist Pixel", sans-serif;
     color: #575757;
-    margin-top:30px ;
 }
-
 
 .h2-certificado {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 1.1;
     font-weight: 500;
-    margin: 15px 0;
-    display: inline-block;
-}
-
-
-.caixa-certificados {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    justify-items: center;
-    align-items: center;
-  
-
-
-}
-
-.certificados {
-    margin: 15px 5px;
-    list-style: none;
-
-}
-
-.img-certificado {
-
-    padding: 2px;
-    border: 1px solid #ffffff;
-    border-radius: 15px;
-    width: 40vw;
-    height: 45vh;
-  
+    margin: 15px 0 30px 0;
 }
 
 .a-certificado {
-   
     text-decoration: none;
-    padding: 5px;
+    padding: 8px 15px;
     position: absolute;
-    right: 60px;
-    margin-top: 50px;
+    right: 0;
+    top: 60px;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     font-weight: 500;
     font-size: 12px;
- 
-    
+    transition: background 0.3s, color 0.3s;
 }
 
-.a-certificado:hover{
+.a-certificado:hover {
     color: #000000;
     background: #ffffff;
 }
 
+.caixa-certificados {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
 
-/*FOOTER*/
+.certificados {
+    list-style: none;
+}
 
-footer{
+.img-certificado {
+    padding: 2px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* FOOTER */
+footer {
     margin: 0 50px;
-    height: 80vh;
-
+    padding: 60px 0 20px 0;
+    display: flex;
+    flex-direction: column;
 }
 
+.footer-conteudo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
-.p-footer1{
+.p-footer1,
+.p-footer {
     font-family: "Geist Pixel", sans-serif;
     color: #575757;
     font-weight: 500;
-    margin-bottom: 20px ;
-    width: 300px;
-    display: inline-block;
-    
+    margin-bottom: 20px;
+    max-width: 300px;
 }
 
-.email-diretoWhatsApp{
-    position: absolute;
-    right: 0;  
-  
-}
-
-.nome-email-direto,.nome-WhatsApp{
+.nome-email-direto,
+.nome-WhatsApp {
     font-family: "Geist Pixel", sans-serif;
     color: #575757;
     font-weight: 500;
-    width: 300px;
-    margin: 10px 0;
+    margin: 10px 0 5px 0;
 }
 
-
-.email,.numero-telefone{
-    font-size: 20px;
+.email,
+.numero-telefone {
+    font-size: 18px;
     font-weight: 400;
     text-decoration: none;
     color: #b1b1b1;
-    padding: 5px; 
+    transition: background 0.3s, color 0.3s;
 }
 
-.email:hover, .numero-telefone:hover{
+.email:hover,
+.numero-telefone:hover {
     background: #dedede;
     color: #000000;
     border-radius: 5px;
-    transition: 1s;
-   
 }
 
-
-.h2-footer{
-    font-size: 30px;
-    line-height: 25px;
+.h2-footer {
+    font-size: 20px;
+    line-height: 1.1;
     margin-bottom: 20px;
+    font-weight: 400;
+    margin-top: 20px;
 }
 
-.p-footer{
-    font-family: "Geist Pixel", sans-serif;
-    color: #575757;
-    font-weight: 500;
-    margin-bottom: 20px ;
-    width: 300px;
-   
-    
-}
-
-.btn-email{
-    width: 100px;
-    padding: 5px;
+.btn-email {
+    display: inline-block;
+    padding: 8px 15px;
     border-radius: 10px;
     border: 1px solid #ffffff;
     background: #000000;
     text-decoration: none;
- 
-    
+    transition: background 0.3s, color 0.3s;
+    margin-right: 10px;
+    width: 30vw;
+    margin: 5px 0;
 }
 
-.btn-email:hover{
+.btn-email:hover {
     background: #ffffff;
     color: #000000;
 }
 
-.links-redes-sociais{
- 
+.links-redes-sociais {
     display: flex;
-    margin: 100px 0 0 10px;
-    padding: 20px;
-    border-top:1px solid rgb(104, 104, 104) ;
-
-   
+    align-items: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(104, 104, 104);
 }
 
-.©wesley{
-    padding: 0 100px 0 0;
-    font-size: 10px;
+.copyright {
+    margin-right: auto;
+    font-size: 12px;
     font-weight: 400;
     color: #4d4d4d;
 }
 
-.a-footer{
+.a-footer {
     margin: 0 10px;
     font-size: 12px;
     text-decoration: none;
-    color: #4d4d4d;
-    padding: 5px;
+    color: #8c8c8c;
+    padding: 5px 10px;
     border-radius: 10px;
+    transition: background 0.3s, color 0.3s;
 }
 
-.a-footer:hover{
- background: #ffffff;
- color: #000000;
- transition: 1s;
+.a-footer:hover {
+    background: #ffffff;
+    color: #000000;
 }

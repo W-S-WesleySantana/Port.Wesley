@@ -5,10 +5,21 @@ const projetos = [
 
     },
     {
-        nome: "INGLES",
-        imagem: "assets/imagens/Certificados/CERTIFICADO 1 inglês .jpg",
+        nome: "nodeJs",
+        imagem: "assets/imagens/Certificados/Node js.png",
 
     },
+    {
+        nome: "ciencia de dados",
+        imagem: "assets/imagens/Certificados/ciencia de dados.png",
+
+    },
+    {
+        nome: "GIT & GitHub",
+        imagem: "assets/imagens/Certificados/Certificado - Git & GitHub - Front End Club.png",
+
+    },
+  
     {
         nome: "EXCEL",
         imagem: "assets/imagens/Certificados/Excel-na-Prática.jpg",
@@ -27,6 +38,12 @@ const projetos = [
     {
         nome: "SEG. DA TECNOLOGIA DA INFORMAÇÃO",
         imagem: "assets/imagens/Certificados/Segurança-em-Tecnologia-da-Informação.jpg",
+
+    },
+
+    {
+        nome: "INGLES",
+        imagem: "assets/imagens/Certificados/CERTIFICADO 1 inglês .jpg",
 
     },
 

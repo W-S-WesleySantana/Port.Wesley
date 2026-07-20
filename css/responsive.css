@@ -1,483 +1,157 @@
- @media(max-width:1900px) {
 
-     main {
-         margin: 0 100px;
-     }
-
-     section {
-         height: 90vh;
-     }
-
-     .header-links {
-         right: 20%;
-     }
-
-     .p-frontEnd,
-     .p-stack {
-         font-size: 20px;
-     }
-
-     .nome-wesley {
-         font-size: 60px;
-         line-height: 50px;
-     }
-
-     .p-texto-esquerdo,
-     .p-sobre-mim {
-         font-size: 20px;
-     }
-
-     .btn-contato,
-     .btn-curriculo {
-         width: 250px;
-         margin: 50px 10px;
-     }
-
-     .caixa-direita {
-         width: 50%;
-         height: 50vh;
-         margin: 50px 0 0 50px;
-
-     }
-
-     .foto-principal {
-         width: 30vw;
-         height: 50vh;
-
-     }
-
-     .section-sobre-mim {
-
-         height: 90vh;
-
-     }
-
-     .foto-sobre-mim {
-         width: 400px;
-         height: 400px;
-     }
-
-     .p-sobre-mim,
-     .p-texto-sobre-mim {
-         font-size: 20px;
-         margin-left: 100px;
-     }
-
-     .h2-sobre-mim {
-         font-size: 50px;
-         line-height: 50px;
-         margin-left: 100px;
-     }
-
-
-     .p-texto-sobre-mim {
-         font-size: 20px;
-         margin-left: 100px;
-         width: auto;
-     }
-
-
-
-     .ul-sobre-mim {
-         width: auto;
-         margin-left: 100px;
-         font-size: 20px;
-     }
-
-     .li-sobre-mim {
-         font-size: 15px;
-         padding: 5px;
-     }
-
-     .h2-stack {
-         font-size: 50px;
-     }
-
-     .meus-stacks {
-         width: 350px;
-     }
-
-     .stack {
-         width: 250px;
-         font-size: 20px;
-     }
-
-     .section-portifolio {
-         height: 100vh;
-     }
-
-
-
-     .p-portifolio {
-         font-size: 20px;
-     }
-
-     .h2-portifolio {
-         font-size: 50px;
-         line-height: 50px;
-         margin: 15px 0;
-     }
-
-
-     .projeto {
-         margin: 10px;
-         width: 300px;
-         height: auto;
-         padding: 5px;
-         align-items: center;
-     }
-
-     .p-projeto,
-     .h2-projeto,
-     .p-texto-projeto {
-         font-size: 14px;
-         margin: 5px 0;
-
-     }
-
-     .a-projeto {
-         padding: 2px 5px;
-     }
-
-     #a-projeto1 {
-         margin: 0 0 0 30px;
-     }
-
-
-     .section-cursos-certificados {
-         height: 100vh;
-     }
-
-     .p-certificado {
-         font-size: 20px;
-     }
-
-     .h2-certificado {
-         font-size: 50px;
-         line-height: 50px;
-     }
-
-     .a-certificado {
-         font-size: 20px;
-     }
-
-     .img-certificado {
-         width: 40vw;
-     }
-
-     footer {
-
-         font-size: 20px;
-         height: 60vh;
-     }
-
-     .p-footer {
-         width: 500px;
-     }
-
-     .email-diretoWhatsApp {
-         right: 5px;
-     }
-
-     .links-redes-sociais {
-         justify-content: center;
-         align-items: center;
-     }
-
-
- }
-
- @media(max-width:1300px) {
-
-     .btn-contato,
-     .btn-curriculo {
-         width: 150px;
-     }
-
-     .foto-sobre-mim {
-         width: 300px;
-         height: 350px;
-     }
-
-     .ul-sobre-mim {
-         margin: 0 10px;
-
-     }
-
-     .li-sobre-mim {
-         font-size: 12px;
-     }
-
-     .stack {
-         width: auto;
-         font-size: 12px;
-     }
- }
-
- @media(max-width:980px) {
-
-
-     section,
-     .section-sobre-mim,
-     .section-portifolio,
-     .section-cursos-certificados {
-         height: auto;
-     }
-
-     .p-frontEnd {
-         font-size: 12px;
-     }
-
-     .p-texto-esquerdo {
-         font-size: 12px;
-     }
-
-     .section-sobre-mim {
-         margin-bottom: 50px;
-     }
-
-     .foto-principal {
-         height: 30vh;
-     }
-
-     .btn-contato,
-     .btn-curriculo {
-         display: block;
-         margin: 15px 0;
-         width: 200px;
-     }
-
-
-     .li-sobre-mim {
-         font-size: auto;
-         width: auto;
-         height: auto;
-     }
-
-     .p-sobre-mim,
-     .p-texto-sobre-mim {
-         font-size: 14px;
-         margin-left: 50px;
-     }
-
-     .h2-sobre-mim {
-         font-size: 30px;
-         line-height: 30px;
-         margin-left: 50px;
-     }
-
-     .p-texto-sobre-mim {
-         font-size: 14px;
-         margin-left: 50px;
-     }
-
-     .section-stacke {
-         margin: 50px 0;
-     }
-
-     .h2-stack,
-     .h2-portifolio {
-         font-size: 30px;
-         line-height: 30px;
-     }
-
-     .stack {
-         width: 15vw;
-     }
-
-
-     .section-portifolio {
-         margin: 50px 0;
-     }
-
-     .ul-projetos {
-         display: grid;
-         grid-template-columns: repeat(2, 1fr);
-     }
-
-     .caixa-certificados {
-         grid-template-columns: repeat(1, 1fr); 
-         justify-items: center;
-         align-items: center;
-     }
-
-     .img-certificado{
-        width: 80vw;
-        height: 40vh;
-     }
+/* TELAS MEDIANAS E TABLETS (Até 992px) */
+@media (max-width: 992px) {
+    main, footer {
+        margin: 0 30px; 
+    }
+
+    
+    section {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+    }
     
 
-     .p-projeto,
-     .p-texto-projeto {
-         font-size: 10px;
-         padding: 2px;
-     }
-
-     .a-projeto {
-         font-size: 12px;
-     }
-
-     footer {
-         font-size: 12px;
-         height: auto;
-         margin: 50px 50px 0 50px;
-     }
-
-     .email-diretoWhatsApp {
-         right: 0;
-     }
-
-     .p-footer {
-         width: 300px;
-     }
-
-
-
-
- }
-
- @media(max-width:850px){
-    .foto-principal{
-        width: 20vw;
-        height: 40vh;
+    .caixa-esquerda, 
+    .caixa-direita {
+        width: 50%;
     }
-
-    .p-portifolio,.p-certificado,.p-stack{
-        font-size: 12px;
-    }
-
-    .h2-certificado,.a-certificado{
-        font-size: 20px;
-        line-height: 20px;
-    }
-    .caixa-certificados{
-        grid-template-columns: repeat(2, 1fr);
-
-
-    }
-
-    .img-certificado {
-        width: 30vw;
-        height: 40vh;
-    }
- }
-
-
- @media(max-width:430px) {
-
    
-     .header-links {
-         right: 0;
-         font-size: 14px;
-     }
-
-     .p-frontEnd,
-     .p-stack {
-         font-size: 12px;
-     }
-
-     .nome-wesley {
-         font-size: 40px;
-         line-height: 40px;
-     }
-
-     .p-texto-esquerdo,
-     .p-sobre-mim {
-         font-size: 14px;
-     }
-
-     .btn-contato,
-     .btn-curriculo {
-         margin: 10px 0;
-         width: 200px;
-     }
-
-     .foto-principal {
-        width: 30vw;
-        height: 20vh;
-        margin: 0;
+    .caixa-direita {
+        margin-top: 30px;
     }
 
-  .section-sobre-mim{
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-    .foto-sobre-mim {
-        display: none;
-       
+    /*  Sobre Mim */
+    .section-sobre-mim {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .p-texto-sobre-mim{
-        width: 90%;
-        margin-left: 20px;
+    .esquerda-sobre-mim {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Links do Certificado */
+    .a-certificado {
+        position: static;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+}
+
+/* 2. DISPOSITIVOS MÓVEIS / CELULARES  */
+@media (max-width: 768px) {
+    main, footer {
+        margin: 0 20px; 
+    }
+
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .header-links {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .nav1 {
+        padding: 5px 0;
         font-size: 14px;
     }
 
+    
+    .nome-wesley {
+        font-size: 38px;
+    }
+
+    .h2-sobre-mim, 
+    .h2-stack, 
+    .h2-portifolio, 
+    .h2-certificado, 
+    .h2-footer {
+        font-size: 24px;
+    }
+
+    /* Botões */
+    .btn-contato, 
+    .btn-curriculo {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* Sobre Mim */
+    .ul-sobre-mim {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .li-sobre-mim {
+        border-left: 2px solid #ffffff;
+        padding-left: 10px;
+    }
+
+    /* Stacks  */
     .meus-stacks {
-        width: 250px;
-        grid-template-columns: repeat(3, 1fr);
-       
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        gap: 10px;
     }
 
-    .stack{
-        margin: 5px;
+    .stack {
+        width: 100%;
+        padding: 15px 5px;
     }
 
-    .h2-stack, .h2-portifolio {
-        font-size: 20px;
-        line-height: 20px;
+    /* Certificados e Projetos */
+    .caixa-certificados,
+    .ul-projetos {
+        grid-template-columns: 1fr; 
     }
 
+    /* Footer */
+    footer {
+        height: auto;
+    }
 
+    .links-redes-sociais {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 40px;
+    }
 
+    .copyright {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 
-     .ul-projetos {
-         grid-template-columns: repeat(1, 1fr);
-     }
+    .a-footer {
+        margin: 0;
+        padding: 5px 0;
+    }
+}
 
-     .h2-certificado {
-         font-size: 30px;
-         line-height: 30px;
-     }
+/* 3. CELULARES MUITO PEQUENOS*/
+@media (max-width: 480px) {
+    .nome-wesley {
+        font-size: 32px;
+    }
 
-     .a-certificado {
-         font-size: 14px;
-         right: 0;
-     }
+    .meus-stacks {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-     .img-certificado {
-         width: 80vw;
-         height: 30vh;
-
-     }
-
-     .h2-footer {
-         font-size: 20px;
-         line-height: 20px;
-         margin: 10px 0;
-     }
-
-     .email-diretoWhatsApp {
-         display: block;
-         position: relative;
-         right: 0;
-         font-size: 12px;
-         margin: 10px 0;
-     }
-
-     .©wesley{
-       text-align: center;
-       margin: 0;
-       padding: 0;
-     }
-
-     .a-footer{
-        margin: 5px;
-       
-     }
-
-
-
-
- }
+    .btn-email {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

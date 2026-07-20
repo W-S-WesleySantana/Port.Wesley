@@ -10,6 +10,7 @@ body {
     background:
         linear-gradient(45deg, rgba(0, 0, 0, 1) 40%, rgb(51, 54, 53) 49%, rgba(0, 0, 0, 1) 62%);
         margin: 0 50px;
+      
        
 
 }
@@ -39,34 +40,44 @@ a:hover{
 
 .caixa-certificados {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
     list-style: none;
-
-
-
+  
 }
 
 .certificados {
-    margin: 15px 5px;
     list-style: none;
-
+  
 }
 
 .img-certificado {
-
     padding: 2px;
     border: 1px solid #ffffff;
     border-radius: 15px;
-    width: 40vw;
-    height: 45vh;
-
+    width: 90%;
+    height: auto;
+    object-fit: cover;
 }
 
-@media(max-width:1200px){
+@media (max-width: 992px){
 
-    main{
-        margin: 0 0;
+    
+    .certificados{
+        width:100%;
     }
 }
+
+@media (max-width: 768px){
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px){
+    h1 {
+        font-size: 20px;
+    }
+
+}
+
