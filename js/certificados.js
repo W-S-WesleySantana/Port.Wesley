@@ -5,6 +5,16 @@ const projetos = [
 
     },
     {
+        nome: "CSS",
+        imagem: "assets/imagens/Certificados/css.png",
+
+    },
+    {
+        nome: "JavaScript",
+        imagem: "assets/imagens/Certificados/js.png",
+
+    },
+    {
         nome: "nodeJs",
         imagem: "assets/imagens/Certificados/Node js.png",
 
